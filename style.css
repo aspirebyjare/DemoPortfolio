@@ -1,0 +1,160 @@
+/* * {
+    border: 1px solid red;
+}
+
+nav {
+    background-color: beige;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+} */
+
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+    background-color: #8b5e3c;
+  }
+  
+  /* -------------------------------------------------------------*/
+  /* Navbar */
+  /* -------------------------------------------------------------*/
+  .navbar {
+    background-color: #8b5e3c !important;
+  }
+  
+  /* -------------------------------------------------------------*/
+  /* Hero Section */
+  /* -------------------------------------------------------------*/
+  .hero {
+    /* Background img */
+    background: no-repeat center/cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+      url("img/background2.jpeg");
+    min-height: 50vh;
+    width: 100vw;
+    /* Text */
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 17vh;
+  }
+  
+  .headshot {
+    /* Headshot img */
+    position: relative;
+    width: clamp(120px, 20vw, 250px);
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white 5px solid;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: clamp(2em, 4vw, 3.2em);
+  }
+  
+  h1 .h5 {
+    display: block;
+    font-size: clamp(0.5em, 1.5vw, 1.2em); /*Suggested fix*/
+    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  
+  /* -------------------------------------------------------------*/
+  /* Footer */
+  /* -------------------------------------------------------------*/
+  #footer-section {
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+    height: 3em;
+  }
+  
+  .copyright {
+    padding: 10px;
+  }
+  
+  /* -------------------------------------------------------------*/
+  /* Part 2: Mission - Skills - Contact - Carousel */
+  /* -------------------------------------------------------------*/
+  
+  /* -------------------------------------------------------------*/
+  /* Mission*/
+  /* -------------------------------------------------------------*/
+  #mission-section {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+  
+  #mission-section .container {
+    margin: 10px 0px;
+  }
+  /* -------------------------------------------------------------*/
+  /* Skills */
+  /* -------------------------------------------------------------*/
+  #skills-section {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+  /* -------------------------------------------------------------*/
+  /* Contact */
+  /* -------------------------------------------------------------*/
+  #contact-section {
+    background-color: antiquewhite;
+    padding-top: 25px;
+    margin: 20px 0px;
+  }
+  .contact-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+    /* border: black 5px solid;
+    border-radius: 15px; */
+  }
+  .contact-img:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* -------------------------------------------------------------*/
+  /* Carousel */
+  /* -------------------------------------------------------------*/
+  #carousel-section {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 20px 0px;
+    padding: 20px;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  .carousel-item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .carousel-caption {
+    z-index: 1;
+  }
+  
+  section {
+    scroll-margin-top: 75px;
+  }
+  
