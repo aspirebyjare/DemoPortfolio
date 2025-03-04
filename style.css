@@ -2,16 +2,13 @@
     border: 1px solid red;
 }
 
-nav {
-    background-color: beige;
+
+img {
+    filter: invert(1)
 }
+/* 
 
-a {
-    color:black;
-    text-decoration: none;
-} */
-
-/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
 
 body {
     background-color: #8b5e3c;

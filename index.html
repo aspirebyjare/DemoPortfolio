@@ -32,221 +32,226 @@
 
   <body>
     <!-- TODO: Paste Navbar code and customize links -->
+    <header>
     <nav
-      class="navbar navbar-expand-md fixed-top bg-dark custom"
-      data-bs-theme="dark"
+    class="navbar navbar-expand-md fixed-top bg-dark custom"
+    data-bs-theme="dark"
     >
-      <div class="container">
+    <div class="container">
         <a href="#home" class="navbar-brand">
-          <i class="bi bi-house-door"></i>
+        <i class="bi bi-house-door"></i>
         </a>
 
         <button
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav-collapse"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#nav-collapse"
         >
-          <span class="navbar-toggler-icon"> </span>
+        <span class="navbar-toggler-icon"> </span>
         </button>
 
         <div id="nav-collapse" class="collapse navbar-collapse">
-          <div class="navbar-nav ms-auto">
+        <div class="navbar-nav ms-auto">
             <a href="#mission-section" class="nav-link">Mission</a>
             <a href="#skills-section" class="nav-link">Skills</a>
             <a href="#contact-section" class="nav-link">Contact</a>
-          </div>
         </div>
-      </div>
+        </div>
+    </div>
     </nav>
+    </header>
+    <main>
     <!-- Hero section -->
     <section id="hero-section">
-      <div class="hero">
-        <img src="img/SqProfilePic.JPG" alt="skini-me:/" class="headshot" />
-        <h1 id="text">
-          Jared Smith <br /><span class="h5">Building a Better Tommorow</span>
-        </h1>
-      </div>
-    </section>
-
-    <!-- Mission/Meet-me section -->
-    <section id="mission-section">
-      <div class="container">
-        <!-- <div class="row"> -->
-        <br />
-        <h2 class="text-center">My Mission</h2>
-        <br />
-        <!-- </div> -->
-        <div class="row">
-          <div class="col-md-6 text-md-end text-center">
+        <div class="hero">
+          <img src="img/SqProfilePic.JPG" alt="skini-me:/" class="headshot" />
+          <h1 id="text">
+            Jared Smith <br /><span class="h5">Building a Better Tommorow</span>
+          </h1>
+        </div>
+      </section>
+  
+      <!-- Mission/Meet-me section -->
+      <section id="mission-section">
+        <div class="container">
+          <!-- <div class="row"> -->
+          <br />
+          <h2 class="text-center">My Mission</h2>
+          <br />
+          <!-- </div> -->
+          <div class="row">
+            <div class="col-md-6 text-md-end text-center">
+              <img
+                src="https://placecats.com/300/200"
+                alt="fillerCat"
+                class="mission-img"
+              />
+            </div>
+            <div class="col-md-6">
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit voluptas quibusdam enim vel nobis cumque obcaecati
+                repellendus fugiat, architecto optio in, dolor debitis eveniet.
+                Illum ratione ea nesciunt obcaecati ab!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Skills section -->
+      <section id="skills-section">
+        <div class="container">
+          <br />
+          <h2 class="text-center">Skills</h1>
+          <br />
+          <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+              <img src="img/icons8-html-5-96.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae cupiditate impedit enim labore? Assumenda porro atque
+                aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
+                voluptates reiciendis voluptas inventore officia!
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img src="img/icons8-css-96.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae cupiditate impedit enim labore? Assumenda porro atque
+                aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
+                voluptates reiciendis voluptas inventore officia!
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img src="img/icons8-bootstrap-96.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae cupiditate impedit enim labore? Assumenda porro atque
+                aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
+                voluptates reiciendis voluptas inventore officia!
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img src="img/icons8-javascript-96.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae cupiditate impedit enim labore? Assumenda porro atque
+                aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
+                voluptates reiciendis voluptas inventore officia!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Carousel Section -->
+      <section id="carousel-section">
+        <div class="container">
+          <br>
+          <h2 class="text-center">Extra Curricular</h2>
+          <br>
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-interval="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/ACM.png" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-md-block">
+                  <h5>ACM</h5>
+                  <p>
+                    Review of the fundamentals of Computer Science and prep for
+                    coding competitions.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/AI2.jpeg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-md-block">
+                  <h5>AI & Data Science Club</h5>
+                  <p>
+                    Learning while building utilizing concepts on the cutting edge
+                    of machine learning!
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/AWS.jpeg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-md-block">
+                  <h5>AWS Cloud Club</h5>
+                  <p>Introducing students to AWS cloud computing.</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Contact Section -->
+      <section id="contact-section">
+        <h2 class="text-center">Contact</h2>
+        <br /><br />
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-4">
             <img
-              src="https://placecats.com/300/200"
-              alt="fillerCat"
-              class="mission-img"
+              class="contact-img"
+              src="img/icons8-linkedin-96 (1).png"
+              alt=""
             />
           </div>
-          <div class="col-md-6">
-            <p class="text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit voluptas quibusdam enim vel nobis cumque obcaecati
-              repellendus fugiat, architecto optio in, dolor debitis eveniet.
-              Illum ratione ea nesciunt obcaecati ab!
-            </p>
+          <div class="col-sm-12 col-md-4">
+            <img class="contact-img" src="img/icons8-github-128.png" alt="" />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <img class="contact-img" src="img/icons8-email-96.png" alt="" />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- Skills section -->
-    <section id="skills-section">
-      <div class="container">
-        <br />
-        <h2 class="text-center">Skills</h1>
-        <br />
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <img src="img/icons8-html-5-96.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae cupiditate impedit enim labore? Assumenda porro atque
-              aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
-              voluptates reiciendis voluptas inventore officia!
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <img src="img/icons8-css-96.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae cupiditate impedit enim labore? Assumenda porro atque
-              aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
-              voluptates reiciendis voluptas inventore officia!
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <img src="img/icons8-bootstrap-96.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae cupiditate impedit enim labore? Assumenda porro atque
-              aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
-              voluptates reiciendis voluptas inventore officia!
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <img src="img/icons8-javascript-96.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae cupiditate impedit enim labore? Assumenda porro atque
-              aliquam in, nostrum ad officiis, nihil incidunt iure, consequatur
-              voluptates reiciendis voluptas inventore officia!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Carousel Section -->
-    <section id="carousel-section">
-      <div class="container">
-        <br>
-        <h2 class="text-center">Extra Curricular</h2>
-        <br>
-        <div
-          id="carouselExampleCaptions"
-          class="carousel slide"
-          data-bs-interval="false"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/ACM.png" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-md-block">
-                <h5>ACM</h5>
-                <p>
-                  Review of the fundamentals of Computer Science and prep for
-                  coding competitions.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/AI2.jpeg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-md-block">
-                <h5>AI & Data Science Club</h5>
-                <p>
-                  Learning while building utilizing concepts on the cutting edge
-                  of machine learning!
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/AWS.jpeg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-md-block">
-                <h5>AWS Cloud Club</h5>
-                <p>Introducing students to AWS cloud computing.</p>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact-section">
-      <h2 class="text-center">Contact</h2>
-      <br /><br />
-      <div class="row text-center">
-        <div class="col-sm-12 col-md-4">
-          <img
-            class="contact-img"
-            src="img/icons8-linkedin-96 (1).png"
-            alt=""
-          />
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <img class="contact-img" src="img/icons8-github-128.png" alt="" />
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <img class="contact-img" src="img/icons8-email-96.png" alt="" />
-        </div>
-      </div>
-    </section>
 
     <!-- Footer section -->
     <section id="footer-section">

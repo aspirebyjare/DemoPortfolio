@@ -1,0 +1,9 @@
+css selectors MDN
+
+
+flexbox.tech
+
+rem refers to default for page
+em refers to parent 
+
+16 px is the initial pixel default
